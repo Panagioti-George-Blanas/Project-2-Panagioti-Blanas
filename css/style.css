@@ -142,60 +142,71 @@ h2 {
 
 /* Specific Styles for resume.html */
 
-/* Effect for Email and LinkedIn Links */
-.resume-link {
-  color: #0066cc; /* Initial color for the link */
-  text-decoration: none; /* No underline by default */
-  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
-}
-
-.resume-link:hover {
-  color: #004d87; /* Darker blue color when hovered */
-  text-decoration: underline; /* Underline the link on hover */
-}
-
-/* Style for sections in resume.html */
+/* 1. Background color of sections in resume.html */
 .resume-page section {
   background-color: #f9f9f9; /* Light gray background for sections */
   padding: 20px;
-  border-radius: 8px; /* Rounded corners for sections */
-  border: 1px solid #ddd; /* Light gray border */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the section */
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   margin-bottom: 30px; /* Space between sections */
-}
-/* Custom list style for experience and skills */
-.resume-page ul {
-  padding-left: 20px; /* Add padding for better alignment */
-  list-style-type: circle; /* Circle bullets for list items */
-  font-size: 1.1em; /* Slightly larger text for readability */
-  color: #333; /* Dark text color for contrast */
+  color: black; /* Set text color to black for all text within sections */
 }
 
-/* Style for individual list items */
-.resume-page ul li {
-  margin-bottom: 10px; /* Add spacing between list items */
+/* 2. Style for h2 in resume.html */
+.resume-page h2 {
+  font-size: 2em; /* Larger size for h2 headings */
+  color: #0066cc; /* Custom color for the headings */
+  font-weight: bold;
+  text-decoration: underline; /* Underlined text for extra emphasis */
+  margin-bottom: 15px;
 }
-/* Style for each experience entry */
+
+/* 3. Style for h3 in resume.html */
+.resume-page h3 {
+  font-size: 1.75em; /* Size for h3 headings */
+  color: #0066cc; /* Custom color */
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* 4. Custom list styling for <ul> in resume.html */
+.resume-page ul {
+  padding-left: 20px; /* Add padding to the left for list items */
+  list-style-type: square; /* Square bullets for list items */
+  font-size: 1.1em; /* Slightly larger text for better readability */
+  color: black; /* Set the list text color to black */
+}
+
+/* 5. Link styling for email and LinkedIn in resume.html */
+.resume-page a {
+  color: #0066cc; /* Blue color for links */
+  text-decoration: none; /* Remove underline by default */
+}
+
+.resume-page a:hover {
+  text-decoration: underline; /* Underline links when hovered */
+  color: #004d87; /* Darker blue color when hovered */
+}
+
+/* 6. Card-style experience box in resume.html */
 .resume-page .experience-entry {
   background-color: white; /* White background for the job entry */
-  border: 1px solid #ddd; /* Light gray border */
+  border: 1px solid #ccc; /* Light gray border */
   padding: 20px;
   border-radius: 8px; /* Rounded corners for the card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-  margin-bottom: 15px; /* Space between experience entries */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for card-like effect */
+  margin-bottom: 15px; /* Space between job entries */
 }
 
-/* Style for job titles inside experience entries */
 .resume-page .experience-entry h3 {
-  font-size: 1.4em; /* Slightly larger size for job titles */
-  color: #0066cc; /* Blue color for job titles */
-  margin-bottom: 12px; /* Space below job title */
-}
-/* Style for the main name (header) */
-.resume-page header h1 {
-  font-size: 2.8em; /* Larger size for the name */
-  color: #0066cc; /* Blue color for the name */
-  font-weight: bold;
-  margin-bottom: 20px; /* Space below the name */
+  font-size: 1.5em; /* Job title font size */
+  color: #0066cc; /* Blue color for job title */
+  margin-bottom: 10px; /* Space below job title */
 }
 
+.resume-page .experience-entry p {
+  font-size: 1.1em; /* Larger text for job description */
+  color: black; /* Set job description text color to black */
+  line-height: 1.6; /* Improved line height for paragraph spacing */
+}
