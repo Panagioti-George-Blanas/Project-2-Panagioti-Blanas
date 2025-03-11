@@ -139,3 +139,15 @@ h2 {
   font-family: 'PT Sans', sans-serif;
   margin-bottom: 15px; /* Space between paragraphs */
 }
+/* Specific Styles for resume.html */
+/* Hover Effect for Email and LinkedIn Links */
+.resume-link {
+  color: #0066cc; /* Initial color for the link */
+  text-decoration: none; /* No underline by default */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
+}
+
+.resume-link:hover {
+  color: #004d87; /* Darker blue color when hovered */
+  text-decoration: underline; /* Underline the link on hover */
+}
