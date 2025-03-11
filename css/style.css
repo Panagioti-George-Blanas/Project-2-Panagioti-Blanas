@@ -7,13 +7,13 @@ body {
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
+  text-align: center; /* Centers text by default */
 }
 
-.container {
+.fluid-container {
   max-width: 1200px;
-  margin: 0 auto;  
+  margin: 0 auto;  /* Centers the container horizontally */
   padding: 20px;
-  text-align: center;  
 }
 
 ul {
@@ -50,7 +50,7 @@ h1, h2, h3 {
   font-family: 'PT Sans', Verdana, sans-serif;
   color: #333;
   margin-bottom: 15px;
-  text-align: center;  /* Ensures the headers are centered */
+  text-align: center;
 }
 
 h1 {
@@ -83,6 +83,23 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Box styles for sections */
+section {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Rounded corners for a nice effect */
+}
+
+.about-images img, section img {
+  max-width: 80%; /* Ensures images don't get too big */
+  height: auto;
+  margin: 0 auto;
+  display: block; /* Centers the images */
+}
+
 @media (max-width: 768px) {
   ul {
     text-align: left;
@@ -92,5 +109,9 @@ a:hover {
   ul li {
     display: block;
     margin-bottom: 10px;
+  }
+
+  section {
+    padding: 15px; /* Smaller padding on mobile for more space */
   }
 }
