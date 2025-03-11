@@ -154,4 +154,47 @@ section img:hover {
   margin-bottom: 15px; /* Space between paragraphs */
 }
 
+/* Specific Styles for resume.html */
+
+/* 1. Body background color */
+body {
+  background-color: #f5f5f5; /* Light gray background for resume.html */
+  color: #333; /* Dark text color for readability */
+}
+
+/* 2. Style for h2 (headings) */
+h2 {
+  font-size: 2em; /* Larger size for h2 headings */
+  color: #0066cc; /* Custom color for the headings */
+  text-decoration: underline; /* Underline headings for emphasis */
+  margin-bottom: 15px;
+}
+
+/* 3. Custom list styling for <ul> */
+ul {
+  padding-left: 20px; /* Add padding to the left to give space for the list items */
+  list-style-type: square; /* Use square bullets for list items */
+}
+
+/* 4. Link styling for email and LinkedIn */
+a {
+  color: #0066cc; /* Blue color for links */
+  text-decoration: none; /* Remove underline by default */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links when hovered */
+  color: #004d87; /* Darker blue color when hovered */
+}
+
+/* 5. Style for each section */
+section {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow to create depth */
+  border-radius: 8px; /* Rounded corners */
+}
+
 
