@@ -210,3 +210,123 @@ h2 {
   color: black; /* Set job description text color to black */
   line-height: 1.6; /* Improved line height for paragraph spacing */
 }
+
+/* Specific Styles for smt.html */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and general page settings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Bullet Point Navigation */
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 1.2em;
+}
+
+ul li a:hover {
+  color: #004d87;
+  text-decoration: underline;
+}
+
+/* Section styling */
+section {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific Background Colors for Each Section */
+section:nth-of-type(2) { /* Persona 3 */
+  background-color: #e0f7fa; /* Light Blue */
+}
+
+section:nth-of-type(3) { /* Persona 4 */
+  background-color: #fff9c4; /* Light Yellow */
+}
+
+section:nth-of-type(4) { /* Persona 5 */
+  background-color: #ffcdd2; /* Very Light Red */
+}
+
+section:nth-of-type(5) { /* SMT 4 */
+  background-color: #c8e6c9; /* Light Green */
+}
+
+section:nth-of-type(6) { /* Nocturne */
+  background-color: white; /* White background stays as is */
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #0066cc;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* Paragraph text */
+section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Video styling */
+video {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Special Section Styling */
+section p strong {
+  font-weight: bold;
+  color: #0066cc;
+}
