@@ -7,13 +7,13 @@ body {
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
-  text-align: center;  
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;  
   padding: 20px;
+  text-align: center;  
 }
 
 ul {
@@ -50,6 +50,7 @@ h1, h2, h3 {
   font-family: 'PT Sans', Verdana, sans-serif;
   color: #333;
   margin-bottom: 15px;
+  text-align: center;  /* Ensures the headers are centered */
 }
 
 h1 {
