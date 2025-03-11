@@ -152,8 +152,8 @@ h2 {
   margin-bottom: 30px; /* Space between sections */
 }
 
-/* 2. Style for heading2 in resume.html (Custom class for h2) */
-.resume-page .heading2 {
+/* 2. Style for h2 in resume.html */
+.resume-page h2 {
   font-size: 2em; /* Larger size for h2 headings */
   color: #0066cc; /* Custom color for the headings */
   font-weight: bold;
@@ -161,8 +161,8 @@ h2 {
   margin-bottom: 15px;
 }
 
-/* 3. Style for heading3 in resume.html (Custom class for h3) */
-.resume-page .heading3 {
+/* 3. Style for h3 in resume.html */
+.resume-page h3 {
   font-size: 1.75em; /* Size for h3 headings */
   color: #0066cc; /* Custom color */
   font-weight: bold;
@@ -170,7 +170,7 @@ h2 {
 }
 
 /* 4. Custom list styling for <ul> in resume.html */
-.resume-page .custom-list {
+.resume-page ul {
   padding-left: 20px; /* Add padding to the left for list items */
   list-style-type: square; /* Square bullets for list items */
   font-size: 1.1em; /* Slightly larger text for better readability */
@@ -178,12 +178,12 @@ h2 {
 }
 
 /* 5. Link styling for email and LinkedIn in resume.html */
-.resume-page .resume-link {
+.resume-page a {
   color: #0066cc; /* Blue color for links */
   text-decoration: none; /* Remove underline by default */
 }
 
-.resume-page .resume-link:hover {
+.resume-page a:hover {
   text-decoration: underline; /* Underline links when hovered */
   color: #004d87; /* Darker blue color when hovered */
 }
