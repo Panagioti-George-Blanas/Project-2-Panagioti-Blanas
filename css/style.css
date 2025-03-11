@@ -71,3 +71,13 @@ img {
     margin: 10px 0;
   }
 }
+
+/* Apply imported font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Use a browser-native font for headers */
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
