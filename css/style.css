@@ -112,6 +112,7 @@ h2 {
     padding: 10px; /* Reduces padding for mobile view */
   }
 }
+
 /* Specific Styles for index.html */
 
 /* 1. Body background color for index.html */
@@ -130,7 +131,7 @@ h2 {
 }
 
 /* 3. Style for .introduction-section */
-.introduction-section {
+.index-page .introduction-section {
   background-color: #ffffff; /* White background for the introduction section */
   padding: 20px; /* Padding to make it feel more spacious */
   border-radius: 10px; /* Rounded corners for a softer feel */
@@ -155,26 +156,27 @@ h2 {
 }
 
 /* Specific Styles for resume.html */
+
+/* 1. Background color for resume.html */
 .resume-page body {
   background-color: #f5f5f5; /* Light gray background for resume.html */
-  color: #333; /* Dark text color for readability */
 }
 
-/* Style for h2 headings in resume.html */
+/* 2. Style for h2 headings in resume.html */
 .resume-page h2 {
-  font-size: 2em; /* Larger size for h2 headings */
+  font-size: 2.5em; /* Larger size for h2 headings */
   color: #0066cc; /* Custom color for the headings */
   text-decoration: underline; /* Underline headings for emphasis */
   margin-bottom: 15px;
 }
 
-/* Custom list styling for <ul> in resume.html */
+/* 3. Custom list styling for <ul> in resume.html */
 .resume-page ul {
   padding-left: 20px; /* Add padding to the left for list items */
   list-style-type: square; /* Use square bullets for list items */
 }
 
-/* Link styling for email and LinkedIn in resume.html */
+/* 4. Link styling for email and LinkedIn in resume.html */
 .resume-page a {
   color: #0066cc; /* Blue color for links */
   text-decoration: none; /* Remove underline by default */
@@ -185,7 +187,7 @@ h2 {
   color: #004d87; /* Darker blue color when hovered */
 }
 
-/* Style for each section in resume.html */
+/* 5. Style for each section in resume.html */
 .resume-page section {
   background-color: white;
   border: 1px solid #ccc;
@@ -194,6 +196,3 @@ h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow to create depth */
   border-radius: 8px; /* Rounded corners */
 }
-
-
-
