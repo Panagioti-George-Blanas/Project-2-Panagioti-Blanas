@@ -211,8 +211,6 @@ h2 {
   line-height: 1.6; /* Improved line height for paragraph spacing */
 }
 
-/* Specific Styles for smt.html */
-
 /* General Reset */
 * {
   margin: 0;
@@ -261,23 +259,23 @@ section {
 }
 
 /* Specific Background Colors for Each Section */
-section:nth-of-type(2) { /* Persona 3 */
+section.persona3 { /* Persona 3 */
   background-color: #e0f7fa; /* Light Blue */
 }
 
-section:nth-of-type(3) { /* Persona 4 */
+section.persona4 { /* Persona 4 */
   background-color: #fff9c4; /* Light Yellow */
 }
 
-section:nth-of-type(4) { /* Persona 5 */
+section.persona5 { /* Persona 5 */
   background-color: #ffcdd2; /* Very Light Red */
 }
 
-section:nth-of-type(5) { /* SMT 4 */
+section.smt4 { /* SMT 4 */
   background-color: #c8e6c9; /* Light Green */
 }
 
-section:nth-of-type(6) { /* Nocturne */
+section.nocturne { /* Nocturne */
   background-color: white; /* White background stays as is */
 }
 
