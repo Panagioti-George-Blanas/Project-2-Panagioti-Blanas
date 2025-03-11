@@ -114,7 +114,7 @@ h2 {
 }
 /* Specific Styles for index.html */
 
-/* 1. Body background color */
+/* 1. Body background color for index.html */
 body {
   background-color: #e1f7ff; /* Light blue background for index.html */
 }
@@ -153,4 +153,5 @@ section img:hover {
   font-family: 'PT Sans', sans-serif;
   margin-bottom: 15px; /* Space between paragraphs */
 }
+
 
