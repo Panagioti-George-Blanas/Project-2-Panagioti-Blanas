@@ -14,13 +14,14 @@ body {
 /* Navigation Bar */
 ul {
   list-style: none;
-  background: #333;
+  background: blue;  
   padding: 10px;
   text-align: center;
+  margin: 0;  
 }
 
 ul li {
-  display: inline;
+  display: inline-block;  
   margin: 0 15px;
 }
 
@@ -33,6 +34,7 @@ ul li a {
 ul li a:hover {
   text-decoration: underline;
 }
+
 
 /* Header */
 h1, h2, h3 {
