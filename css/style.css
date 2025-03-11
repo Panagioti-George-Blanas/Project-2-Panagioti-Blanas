@@ -139,3 +139,66 @@ h2 {
   font-family: 'PT Sans', sans-serif;
   margin-bottom: 15px; /* Space between paragraphs */
 }
+
+/* Specific Styles for resume.html */
+
+/* 1. Background color of sections in resume.html */
+.resume-page section {
+  background-color: #f9f9f9; /* Light gray background for sections */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for sections */
+  border: 1px solid #ccc; /* Light gray border for sections */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 30px; /* Space between sections */
+}
+
+/* 2. Style for h2 and h3 headings in resume.html */
+.resume-page h2, .resume-page h3 {
+  font-size: 2em; /* Larger size for h2 and h3 headings */
+  color: #0066cc; /* Custom color for the headings */
+  font-weight: bold;
+  text-decoration: underline; /* Underlined text for extra emphasis */
+  margin-bottom: 15px;
+}
+
+/* 3. Custom list styling for <ul> in resume.html */
+.resume-page ul {
+  padding-left: 20px; /* Add padding to the left for list items */
+  list-style-type: square; /* Square bullets for list items */
+  font-size: 1.1em; /* Slightly larger text for better readability */
+  color: #333; /* Dark text color for contrast */
+}
+
+/* 4. Link styling for email and LinkedIn in resume.html */
+.resume-page a {
+  color: #0066cc; /* Blue color for links */
+  text-decoration: none; /* Remove underline by default */
+}
+
+.resume-page a:hover {
+  text-decoration: underline; /* Underline links when hovered */
+  color: #004d87; /* Darker blue color when hovered */
+}
+
+/* 5. Card-style experience box in resume.html */
+.resume-page .experience-entry {
+  background-color: white; /* White background for the job entry */
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for card-like effect */
+  margin-bottom: 15px; /* Space between job entries */
+}
+
+.resume-page .experience-entry h3 {
+  font-size: 1.5em; /* Job title font size */
+  color: #0066cc; /* Blue color for job title */
+  margin-bottom: 10px; /* Space below job title */
+}
+
+.resume-page .experience-entry p {
+  font-size: 1.1em; /* Larger text for job description */
+  color: #555; /* Darker text color for readability */
+  line-height: 1.6; /* Improved line height for paragraph spacing */
+}
+
