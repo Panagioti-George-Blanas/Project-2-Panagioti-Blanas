@@ -146,41 +146,49 @@ h2 {
 .resume-page section {
   background-color: #f9f9f9; /* Light gray background for sections */
   padding: 20px;
-  border-radius: 8px; /* Rounded corners for sections */
-  border: 1px solid #ccc; /* Light gray border for sections */
+  border-radius: 8px;
+  border: 1px solid #ccc;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   margin-bottom: 30px; /* Space between sections */
 }
 
-/* 2. Style for h2 and h3 headings in resume.html */
-.resume-page h2, .resume-page h3 {
-  font-size: 2em; /* Larger size for h2 and h3 headings */
+/* 2. Style for heading2 in resume.html (Custom class for h2) */
+.resume-page .heading2 {
+  font-size: 2em; /* Larger size for h2 headings */
   color: #0066cc; /* Custom color for the headings */
   font-weight: bold;
   text-decoration: underline; /* Underlined text for extra emphasis */
   margin-bottom: 15px;
 }
 
-/* 3. Custom list styling for <ul> in resume.html */
-.resume-page ul {
+/* 3. Style for heading3 in resume.html (Custom class for h3) */
+.resume-page .heading3 {
+  font-size: 1.75em; /* Size for h3 headings */
+  color: #0066cc; /* Custom color */
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* 4. Custom list styling for <ul> in resume.html */
+.resume-page .custom-list {
   padding-left: 20px; /* Add padding to the left for list items */
   list-style-type: square; /* Square bullets for list items */
   font-size: 1.1em; /* Slightly larger text for better readability */
   color: #333; /* Dark text color for contrast */
 }
 
-/* 4. Link styling for email and LinkedIn in resume.html */
-.resume-page a {
+/* 5. Link styling for email and LinkedIn in resume.html */
+.resume-page .resume-link {
   color: #0066cc; /* Blue color for links */
   text-decoration: none; /* Remove underline by default */
 }
 
-.resume-page a:hover {
+.resume-page .resume-link:hover {
   text-decoration: underline; /* Underline links when hovered */
   color: #004d87; /* Darker blue color when hovered */
 }
 
-/* 5. Card-style experience box in resume.html */
+/* 6. Card-style experience box in resume.html */
 .resume-page .experience-entry {
   background-color: white; /* White background for the job entry */
   border: 1px solid #ccc; /* Light gray border */
@@ -201,4 +209,3 @@ h2 {
   color: #555; /* Darker text color for readability */
   line-height: 1.6; /* Improved line height for paragraph spacing */
 }
-
