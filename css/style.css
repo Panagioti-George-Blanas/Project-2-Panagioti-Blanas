@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'PT Sans', Verdana, sans-serif;
+  font-family: 'PT Sans', Verdana, Arial;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -77,7 +77,7 @@ section video {
 
 /* Flexible Typography */
 h1, h2, h3 {
-  font-family: 'PT Sans', Verdana, sans-serif;
+  font-family: 'PT Sans', Verdana, Arial;
   color: #333;
   margin-bottom: 15px;
   text-align: center;
@@ -109,7 +109,7 @@ h2 {
 .index-page h1 {
   font-size: 3.5em; /* Larger size for the main heading */
   color: #0066cc; /* Custom color for the heading */
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial;
   font-weight: bold;
   text-transform: uppercase; /* Uppercase text for extra emphasis */
   margin-bottom: 20px;
@@ -136,7 +136,7 @@ h2 {
   font-size: 1.2em; /* Larger font size for easier reading */
   line-height: 1.6;
   color: #333333; /* Darker text color for readability */
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial;
   margin-bottom: 15px; /* Space between paragraphs */
 }
 
@@ -220,7 +220,7 @@ h2 {
 
 /* Body and general page settings */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Arial;
   background-color: #f9f9f9;
   color: #333;
   padding: 20px;
