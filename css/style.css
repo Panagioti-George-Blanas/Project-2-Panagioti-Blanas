@@ -180,7 +180,7 @@ h2 {
 
 /* 5. Link styling for email and LinkedIn in resume.html */
 .resume-page a {
-  color: #fff; /* Blue color for links */
+  color: #000; /* Black color for links */
   text-decoration: none; /* Remove underline by default */
 }
 
@@ -241,7 +241,7 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-size: 1.2em;
 }
 
